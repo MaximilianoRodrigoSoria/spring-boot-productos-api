@@ -22,16 +22,16 @@ public class Producto implements Serializable {
 	 */
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	private String nombre;
 	private Double precio;	
 	@Column(name="create_at")
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	public String getNombre() {
@@ -54,5 +54,18 @@ public class Producto implements Serializable {
 	}
 	
 	
+	public Producto(String nombre, Double precio, Date createAt) {
+		super();
+		this.nombre = nombre;
+		this.precio = precio;
+		this.createAt = createAt;
+	}
+
+
+	public Producto() {
+		super();
+	}
+
+
 	private static final long serialVersionUID = 59827311040998429L;
 }
