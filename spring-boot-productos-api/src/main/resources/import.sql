@@ -1,0 +1,10 @@
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Medias Patito',  610.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Bambacha',  160.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Corpinio',  106.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Body', 104.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Tanga', 105.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Boxer',  610.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Camisa Hombre',  160.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Babucha',  106.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Buzo', 104.00, NOW());
+INSERT INTO productos ( nombre,  precio, create_at) VALUES( 'Guantes', 105.00, NOW());
