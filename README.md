@@ -23,7 +23,7 @@ set M2_HOME=C:\Java\apache-maven-3.2.3
 set PATH=%M2_HOME%\bin;%PATH%
 set M2=%M2_HOME%
 set PATH=%M2%\bin;%PATH%
-set GIT_HOME=C:\Users\vpagnozzi\AppData\Local\Programs\Git
+set GIT_HOME=C:\Users\mrsoria\AppData\Local\Programs\Git
 set PATH=%GIT_HOME%\bin;%PATH%
 
 echo Verify current build environment settings:
