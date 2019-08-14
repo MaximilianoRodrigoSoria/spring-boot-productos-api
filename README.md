@@ -1,4 +1,4 @@
-# Variables de Entorno via bat
+# Variables de Entorno configuradas para bat
 
 [![N|Solid](https://i.imgur.com/r3lfak5.png)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
@@ -23,7 +23,7 @@ set M2=%M2_HOME%
 set PATH=%M2%\bin;%PATH%
 set GIT_HOME=C:\Users\maximiliano.soria\AppData\Local\Programs\Git
 set PATH=%GIT_HOME%\bin;%PATH%
-
+cls
 echo Verifique la configuracion actual del entorno de compilacion:
 echo .
 echo CLASSPATH:     %CLASSPATH%         
